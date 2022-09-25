@@ -86,11 +86,10 @@ impl Cipher {
 
   #[napi]
   pub fn encrypt(&self, data: String) -> Vec<u8> {
-    // print!("Encrypting: {:#?}", &self.nonce);
-    // print!("Encrypting: {:#?}", data.as_str().as_bytes().as_ref());
     let ciphertext = self.cipher.encrypt(&self.nonce, data.as_bytes()).unwrap();
-    ciphertext.to_vec()  // .into_iter().map(|x| x.to_string()).collect::<Vec<String>>().join("")
+    ciphertext.to_vec()
   }
+  // .into_iter().map(|x| x.to_string()).collect::<Vec<String>>().join("")
 
   #[napi]
   pub fn decrypt(&self, data: Vec<u8>) -> String {

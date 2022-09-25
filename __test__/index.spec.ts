@@ -1,6 +1,6 @@
 import test from 'ava'
 
-import { Cipher } from '../index.js'
+import { Cipher } from '../index'
 
 test('cipher', (t) => {
   const cipher = new Cipher([
