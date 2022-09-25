@@ -36,20 +36,5 @@
     "test": "ava",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.2.3",
-  "optionalDependencies": {
-    "@boop/cipher-win32-x64-msvc": "0.0.0",
-    "@boop/cipher-darwin-x64": "0.0.0",
-    "@boop/cipher-linux-x64-gnu": "0.0.0",
-    "@boop/cipher-darwin-arm64": "0.0.0",
-    "@boop/cipher-android-arm64": "0.0.0",
-    "@boop/cipher-linux-arm64-gnu": "0.0.0",
-    "@boop/cipher-linux-arm64-musl": "0.0.0",
-    "@boop/cipher-win32-arm64-msvc": "0.0.0",
-    "@boop/cipher-linux-arm-gnueabihf": "0.0.0",
-    "@boop/cipher-linux-x64-musl": "0.0.0",
-    "@boop/cipher-freebsd-x64": "0.0.0",
-    "@boop/cipher-win32-ia32-msvc": "0.0.0",
-    "@boop/cipher-android-arm-eabi": "0.0.0"
-  }
+  "packageManager": "yarn@3.2.3"
 }
