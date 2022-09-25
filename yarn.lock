@@ -10,7 +10,7 @@ __metadata:
   resolution: "@boop/cipher@workspace:."
   dependencies:
     "@napi-rs/cli": ^2.11.4
-    ava: ^4.3.0
+    ava: ^4.3.3
   languageName: unknown
   linkType: soft
 
@@ -241,7 +241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:^4.3.0":
+"ava@npm:^4.3.3":
   version: 4.3.3
   resolution: "ava@npm:4.3.3"
   dependencies:
